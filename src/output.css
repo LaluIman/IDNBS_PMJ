@@ -1026,6 +1026,10 @@ input[type="range"]::-ms-fill-lower{
   margin-top: 2rem;
 }
 
+.mt-\[250px\]{
+  margin-top: 250px;
+}
+
 .block{
   display: block;
 }
@@ -1094,6 +1098,18 @@ input[type="range"]::-ms-fill-lower{
   height: 6rem;
 }
 
+.h-\[1\.375rem\]{
+  height: 1.375rem;
+}
+
+.h-\[1\.625rem\]{
+  height: 1.625rem;
+}
+
+.h-\[1\.688rem\]{
+  height: 1.688rem;
+}
+
 .w-1\/2{
   width: 50%;
 }
@@ -1145,6 +1161,18 @@ input[type="range"]::-ms-fill-lower{
 
 .w-\[80\%\]{
   width: 80%;
+}
+
+.w-\[0\.938rem\]{
+  width: 0.938rem;
+}
+
+.w-\[1\.688rem\]{
+  width: 1.688rem;
+}
+
+.w-\[1\.875rem\]{
+  width: 1.875rem;
 }
 
 .max-w-3xl{
@@ -1280,6 +1308,10 @@ input[type="range"]::-ms-fill-lower{
   gap: 1rem;
 }
 
+.gap-7{
+  gap: 1.75rem;
+}
+
 .gap-x-16{
   -moz-column-gap: 4rem;
        column-gap: 4rem;
@@ -1303,6 +1335,12 @@ input[type="range"]::-ms-fill-lower{
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-10 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .self-center{
@@ -1483,6 +1521,10 @@ input[type="range"]::-ms-fill-lower{
   background-image: url('/src/img/bgg.png');
 }
 
+.bg-\[url\(\'\/src\/img\/bgg\.webp\'\)\]{
+  background-image: url('/src/img/bgg.webp');
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -1616,6 +1658,11 @@ input[type="range"]::-ms-fill-lower{
 .py-16{
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+.py-14{
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .pb-8{
@@ -1793,6 +1840,11 @@ input[type="range"]::-ms-fill-lower{
 .text-blue-500{
   --tw-text-opacity: 1;
   color: rgb(63 131 248 / var(--tw-text-opacity));
+}
+
+.text-gray-800{
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
 .shadow-\[0px_1px_2px_0px_rgba\(16\2c _24\2c _40\2c _0\.05\)\]{
@@ -2098,6 +2150,10 @@ input[type="range"]::-ms-fill-lower{
 
   .md\:gap-8{
     gap: 2rem;
+  }
+
+  .md\:gap-12{
+    gap: 3rem;
   }
 
   .md\:space-x-8 > :not([hidden]) ~ :not([hidden]){
